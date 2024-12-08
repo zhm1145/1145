@@ -14,7 +14,7 @@
     let totalT = 0;
 
     // 设置视频路径
-    videoMain.src = 'main./video.mp4';
+    videoMain.src = './video.mp4';
 
     // 可以播放
     videoMain.addEventListener('canplay', () => {
