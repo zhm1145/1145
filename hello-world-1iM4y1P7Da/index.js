@@ -14,7 +14,7 @@
     let totalT = 0;
 
     // 设置视频路径
-    videoMain.src = './video.mp4';
+    videoMain.src = 'zhm1145.github.io/video.mp4';
 
     // 可以播放
     videoMain.addEventListener('canplay', () => {
