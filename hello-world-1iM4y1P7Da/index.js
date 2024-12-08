@@ -11,7 +11,7 @@
     progressBarLoad = videoBox.querySelector('.progress-bar-load');
 
     // 总的视频时长（整数）
-    let totalT = 0;
+    let totalT = 4;
 
     // 设置视频路径
     videoMain.src = './video.mp4';
