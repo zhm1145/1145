@@ -13,7 +13,7 @@ window.onload = function(){
 			}
 			this.className = "active";
 			it[i].index=i;
-			con[i].style.display = "block";
+			con[this.index].style.display = "block";
 		}
 	}
 }
