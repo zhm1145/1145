@@ -1,0 +1,37 @@
+.danmaku-item {
+    position: absolute;
+    font-size: 22px;
+    white-space: nowrap;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+.danmaku-row{
+    right: 0;
+}
+
+.danmaku-row-move{
+    will-change: transform;
+    animation: danmaku 5s linear;
+    animation-play-state: running;
+}
+
+.danmaku-center-move{
+    will-change: transform;
+    animation: danmaku-center 5s linear;
+    animation-play-state: running;
+}
+
+@keyframes danmaku {
+    from {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes danmaku-center {
+    from {
+        visibility: visible;
+    }
+    to {
+        visibility: visible;
+    }
+}
